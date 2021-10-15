@@ -16,29 +16,3 @@ price_stripped = price_raw.split('\n')
 price_stripped = price_stripped[1]
 print(product_name_stripped)
 print(price_stripped)
-
-
-
-
-
-
-
-
-
-    # for link in links:
-    #     browser.get(link)
-    #     html = browser.page_source
-    #     time.sleep(2)
-    #     soup = BeautifulSoup(html, 'html.parser')
-    #     entry_area = soup.find("ul", {"id": "entry-item-list"})
-    #     contents = entry_area.find_all("div", class_="content")
-    #     authors = entry_area.find_all("a", class_="entry-author")
-    #     dates = entry_area.find_all("a", class_="entry-date permalink")
-    #
-    #     for idx in range(len(contents)):
-    #         entries.append(contents[idx].text.replace("\n", ""))
-    #         susers.append(authors[idx].text)
-    #         datetime.append(dates[idx].text)
-    #         print(contents[idx].text)
-    #         print(authors[idx].text)
-    #         print(dates[idx].text)
